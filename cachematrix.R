@@ -25,7 +25,6 @@ makeCacheMatrix <- function(x = matrix())
 ## Checks if the Inverse is already present in cache or not
 ## if already cached then fetch from cache
 ## else calculate inverse and cache it.
-## **performs the basic matrix validations first
 
 cacheSolve <- function(x, ...) 
 {
